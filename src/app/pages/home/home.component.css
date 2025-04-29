@@ -1,0 +1,38 @@
+.container{
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+}
+
+.container header{
+  width: 1216px;
+  height: 176px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container header .image-wraper,
+.container header .social-midia-wraper{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.container header .image-wraper .image{
+  width: 166px;
+  height: 80px;
+  background-size: cover;
+}
+
+.container header .social-midia-wraper{
+  justify-content: end !important;
+}
+
+.container header .social-midia-wraper .social-midia{
+  width: 232px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
