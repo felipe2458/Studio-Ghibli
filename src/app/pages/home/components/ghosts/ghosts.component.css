@@ -1,0 +1,25 @@
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+
+.container .ghost-wraper{
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.container .ghost-wraper #ghost1{
+  height: 130%;
+  position: absolute;
+  top: -30%;
+  left: -26%;
+}
+
+.container .ghost-wraper #ghost2{
+  position: absolute;
+  top: -26%;
+  left: -45%;
+}
